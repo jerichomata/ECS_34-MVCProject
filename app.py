@@ -1,7 +1,7 @@
 import os
 from random import randint
 
-for i in range (157, 170):
+for i in range (171, 174):
     d = str(i) + ' days ago'
     with open('file.txt', 'a') as file:
         file.write(d)
